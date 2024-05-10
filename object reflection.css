@@ -1,0 +1,8 @@
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 18% 100%;
+    /*the image shifts to the right as percentage of the object position % increases*/
+    
+}

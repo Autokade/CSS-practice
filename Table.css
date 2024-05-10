@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  text-align: center;
+  vertical-align: bottom;
+  border-bottom: 2px solid;
+}
+table {
+  width: 75%;
+  border-collapse: collapse;
+}
+tr:hover {
+  background-color: coral;
+}
+th {
+  height: 50px;
+  text-align: center;
+}
+td {
+  height: 40px;
+  text-align: left;
+}
+tr:nth-child(odd){
+    background-color: antiquewhite;
+}

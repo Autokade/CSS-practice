@@ -1,0 +1,6 @@
+img.img{
+    -webkit-box-reflect: right;
+}
+img.offset{
+    -webkit-box-reflect: below 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        position: relative;
+      }
+      .topleft {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        font-size: 18px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        opacity: 0.3;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>This image has text on top left</h2>
+    <p>Add some text to image on the top right corner</p>
+    <div class="container">
+      <img
+        src="painting-mountain-lake-with-mountain-background_188544-9126.avif"
+        alt="painting-mountain-lake-with-mountain-background_188544-9126"
+        width="100"
+        height="300"
+      />
+      <div class="topleft">Top left</div>
+    </div>
+    <!--Relative - the element is positioned relative to its normal position. 
+        Absolute - the element is positioned absolutely to its first positioned parent. 
+        Fixed - the element is positioned related to the browser window. 
+        Sticky - the element is positioned based on the user's scroll position.
+    z-index	Sets the stack order of an element-->
+  </body>
+</html>

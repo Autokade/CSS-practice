@@ -1,0 +1,18 @@
+div{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow:hidden
+}
+div.scroll{
+    overflow: scroll;
+    padding: 20px;
+    margin: 20px;
+}
+div.overflowx{
+    overflow-x:hidden;
+    overflow-y: scroll;
+    height: 65px;
+    border: 1px solid grey;
+}

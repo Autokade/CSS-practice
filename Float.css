@@ -1,0 +1,49 @@
+img {
+  float: right;
+}
+div{
+  border: 3px solid green;
+  padding: 5px;
+}
+
+.d1 {
+  background-color: red;
+  padding: 20px;
+}
+.d2 {
+  background-color: aqua;
+  padding: 20px;
+}
+.d3 {
+  background-color: yellow;
+  padding: 20px;
+}
+.div1{
+  float: left;
+  padding: 10px;
+  border: 3px solid green;
+}
+.div2{
+  padding: 10px;
+  border: 3px solid red;
+}
+.div3{
+  float: left;
+  padding: 10px;
+  border: 3px solid green;
+}
+.div4{
+  padding: 10px;
+  border: 3px solid red;
+  clear: both;
+}
+.img1{
+  float: right;
+}
+.img2{
+  float: right;
+}
+.clearfix{
+  overflow:auto;
+}
+

@@ -1,0 +1,62 @@
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+  /*change position of tooltip using right: top: bottom: tags*/
+}
+body {
+  text-align: center;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip1 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid black;
+}
+
+.tooltip1 .tooltiptext1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+.tooltip1 .tooltiptext1::after {
+  content: "";
+  position: absolute;
+  top: 100;
+  /*change the top function to bottom if you want the box to appear in the bottom*/
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+  /*To change the direction of the arrow key, chage the place at which you place the black 
+  element with the transparent elements*/
+}
+.tooltip1:hover .tooltiptext1 {
+  visibility: visible;
+}

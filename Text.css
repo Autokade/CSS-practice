@@ -1,0 +1,36 @@
+body{
+    color: blue;
+    background-color: beige;
+}
+h1{
+    color: aquamarine;
+    background-color: grey;
+    display: inline;
+    text-indent: 200px;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+pre{
+    text-indent: 200px;
+}
+div{
+    color: cornflowerblue;
+    border: 2px  solid darkmagenta;
+    padding: 20px;
+    width: 770px;
+    height: 200px;
+    text-align: justify;
+    font-size: 18px;
+}
+span{
+    vertical-align: super;
+    text-decoration: overline underline;
+    text-decoration-color: palevioletred ;
+    text-decoration-style:double ;
+    text-decoration-thickness: 5px;
+    text-transform: uppercase;
+    text-indent: 50px;
+}
+h2{
+    text-shadow: 2px 2px black;
+}

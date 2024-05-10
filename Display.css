@@ -1,0 +1,12 @@
+span{
+    display: block;
+}
+a{
+    display: block;
+}
+h1{
+    display: hidden;
+}
+h1.hidden{
+    display: none;
+}

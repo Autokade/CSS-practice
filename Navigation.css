@@ -1,0 +1,43 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  overflow:hidden;
+  height: 100vh;
+ 
+}
+li a {
+  display: block;
+  background-color:aquamarine ;
+  height: 20%;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+a {
+  color: darkcyan;
+}
+li a:hover {
+  display: block;
+  background-color: chocolate;
+  color: white;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+li a.active {
+  background-color: crimson;
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: crimson;
+  color: white;
+}
+body {
+  margin: 0;
+}
+p.p {
+  margin-left: 100px;
+}
+ul.ul{
+  display: inline;
+}

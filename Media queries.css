@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+/*
+body{
+    background-color: pink;
+}
+@media screen and (min-width: 480px) {
+    body{
+        background-color: blue
+    }
+    
+}*/
+/* Create 4 equal columns that floats next to each other*/
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+/*clears float after the colums*/
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*on screens that are 992px wide or less, go from four colums to 2 columns*/
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+/*On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

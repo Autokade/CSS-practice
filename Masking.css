@@ -1,0 +1,26 @@
+/*.mask1{
+    -webkit-mask-image: url(w3logo.png);
+    mask-image: url(w3logo.png);
+    -webkit-mask-repeat: repeat;
+    mask-repeat: repeat;
+    
+}*/
+   /*use no repeat option to print logo only once
+    */
+/*.mask2{
+-webkit-mask-image: linear-gradient(black,transparent);
+mask-image: linear-gradient(black,transparent);
+}*/
+p{
+    font-size:20px ;
+    padding: 20px;
+    color: white;
+}
+.mask1{
+    max-width: 600px;
+    height: 350px;
+    overflow-y: scroll;
+    background-image:url(painting-mountain-lake-with-mountain-background_188544-9126.avif) ;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient(black,transparent);
+}

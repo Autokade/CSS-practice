@@ -1,0 +1,33 @@
+a:link{
+    color: red;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: hotpink;
+}
+a:active{
+    color: rgb(0, 183, 255);
+}
+
+a.highlight:hover{
+    color: brown;
+    font-size: 20px;
+}
+div{
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+
+}
+div:hover{
+    background-color: blue;
+}
+div:active{
+    background-color: aquamarine;
+}
+p i:first-child{
+    color: blue;
+}

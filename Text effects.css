@@ -1,0 +1,33 @@
+p.test1{
+    white-space: nowrap;
+    width: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow: clip;
+    writing-mode: vertical-rl;
+}
+p.test2{
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+p.test1:hover{
+    overflow: visible;
+}   
+p.test{
+    width: 11em;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+p.test3{
+    width: 140px;
+    border: 1px solid black;
+    word-wrap: keep-all;
+}
+p.test4{
+    width: 140px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}

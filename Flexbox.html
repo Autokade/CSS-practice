@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Flexbox.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Flexible boxes</h1>
+    <div class="flex-container">
+        <div style="order: 3;">1</div>
+        <div>2</div>
+        <div style="order: 1;
+        flex-grow: 4;">3</div>
+        <!-- orders only work when you order every single div
+        The flex-shrink property specifies how much a flex item will shrink relative to the rest of the flex items.-->
+
+        <div style="flex-shrink: 0;"><h2>4</h2></div>
+        <!--The flex-basis property specifies the initial length of a flex item.-->
+        <div style="flex-basis: 200px;"><h4>5</h4></div>
+        <!--The flex property is a shorthand property for the flex-grow, flex-shrink, and flex-basis properties.-->
+        <div style="flex: 0 0 200px;"><h1>6</h1></div>
+        <div><b>7</b></div>
+        <div><small>8</small></div>
+    </div>
+    <p>try to resize the browser window</p>
+    <p>a container with "flex-wrap: no wrap;" will never wrap its items</p>
+    <p><strong>note:</strong> FLexbox is not suported in internet explorer 10 or earlier versions.</p>
+</body>
+</html>

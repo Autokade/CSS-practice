@@ -1,0 +1,12 @@
+p::first-line{
+    color: violet;
+    font-variant: small-caps;
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+::selection{
+    color: red;
+    background-color: greenyellow;
+}

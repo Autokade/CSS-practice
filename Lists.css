@@ -1,0 +1,25 @@
+ul.a {
+  list-style-type: circle;
+  list-style-position: inside;
+}
+ul.b {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+ol.c {
+  list-style-type: upper-roman;
+}
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+ul.e{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/*Property	Description
+list-style	Sets all the properties for a list in one declaration
+list-style-image	Specifies an image as the list-item marker
+list-style-position	Specifies the position of the list-item markers (bullet points)
+list-style-type	Specifies the type of list-item marker*/

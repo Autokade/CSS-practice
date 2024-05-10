@@ -1,0 +1,21 @@
+.class {
+  outline-style: dashed;
+  outline-width: 5px;
+  outline-offset: 6px;
+  border-style: double;
+  padding: 5px;
+  margin: 20px;
+  outline-color: thistle;
+
+}
+
+
+/*outlines cant be drawn instead of borders because they may overlap other 
+elements surrounding the element*/
+/*The outline property is a shorthand property for setting the following individual outline properties:
+
+outline-width
+outline-style (required)
+outline-color
+The outline property is specified as one, two, or three values from the list above. The order of the values does not matter.*/
+

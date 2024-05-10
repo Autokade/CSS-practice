@@ -1,0 +1,37 @@
+div.translate{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,100px);
+}
+div{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+div#Myd{
+    transform: rotate(20deg);
+}
+h1{
+    z-index:auto;
+    position:relative;
+}
+div#My-d{
+    transform: rotate(-20deg);
+}
+div.scale{
+    margin: 150px;
+    transform: scale(2,3);
+}
+div#skewx{
+    transform: skewX(20deg);
+}
+div#skewy{
+    transform: skewY(20deg);
+
+}
+div#skew{
+    transform: skew(20deg,10deg);
+}
